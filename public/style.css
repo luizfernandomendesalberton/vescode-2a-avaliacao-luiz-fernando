@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+.div{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    grid-template-rows: max-content;
+    grid-template-columns: none;
+    grid-template-areas: unset;
+    display: inline;
+    
+}
+.coluna1{
+    width: 100px;
+    height: 100px;
+    display:  flex;
+    align-items: center;
+    grid-template-rows: max-content;
+    grid-template-columns: none;
+    grid-template-areas: unset;
+    display: inline;
+}
+.coluna2{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    top: 50px;
+    border: 30px;
+    position: absolute;
+    align-items: center;
+    grid-template-rows: max-content;
+    grid-template-columns: none;
+    grid-template-areas: unset;
+    display: inline;
+}

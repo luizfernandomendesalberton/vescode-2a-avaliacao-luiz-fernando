@@ -1,0 +1,206 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 2800px;
+	margin: 0;
+	background-color: rgb(15, 170, 175);
+	font-family: Arial, sans-serif;
+}
+
+.game-board {
+	position: absolute;
+	top: 20px;
+	width: 300px;
+	height: 300px;
+	border: 1px solid #000;
+	position: fixed;
+}
+
+.line {
+	position: absolute;
+	background-color: #000;
+	
+}
+
+
+.line-horizontal {
+	height: 1px;
+	width: 100%;
+	
+}
+
+.line-vertical {
+	width: 1px;
+	height: 100%;
+	
+}
+.line:nth-child(1) { top: 33.33%; }
+        .line:nth-child(2) { top: 66.66%; }
+        .line:nth-child(3) { left: 33.33%; top: 0; height: 100%; }
+        .line:nth-child(4) { left: 66.66%; top: 0; height: 100%;
+		 }
+
+		 .clier1 {
+			width: 80px; 
+			height: 80px; 
+			left: 810px;
+			top: 150px;
+			background-color: rgb(68, 11, 225);
+			position: absolute;
+			border-radius: 50%;
+		}
+		.clier2{
+			width: 80px; 
+			height: 80px; 
+			left: 910px;
+			top: 150px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(228, 15, 15);
+		}
+		.clier3{
+			width: 80px; 
+			height: 80px; 
+			left: 1010px;
+			top: 150px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(15, 19, 228);
+		}
+		.clier4{
+			width: 80px; 
+			height: 80px; 
+			left: 810px;
+			top: 450px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(19, 15, 228);  /*seguda*/
+		}
+		.clier5{
+			width: 80px; 
+			height: 80px; 
+			left: 910px;
+			top: 450px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(228, 15, 15);
+		}
+		.clier6{
+			width: 80px; 
+			height: 80px; 
+			left: 1010px;
+			top: 450px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(41, 6, 235);
+		}
+		.clier7{
+			width: 80px; 
+			height: 80px; 
+			left: 810px;
+			top: 800px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(19, 15, 228);
+		}
+		.clier8{
+			width: 80px; 
+			height: 80px; 
+			left: 910px;
+			top: 800px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(228, 15, 15);
+		}
+		.clier9{
+			width: 80px; 
+			height: 80px; 
+			left: 1010px;
+			top: 650px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(235, 6, 6);
+		}
+		.clier10{
+			width: 80px; 
+			height: 80px; 
+			left: 1010px;
+			top: 800px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(15, 19, 228);
+		}
+		.clier11{
+			width: 80px; 
+			height: 80px; 
+			left: 1010px;
+			top: 1000px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(235, 6, 6);
+		}
+		.clier12 {
+			width: 80px; 
+			height: 80px; 
+			left: 810px;
+			top: 900px;
+			background-color: rgb(11, 15, 225);
+			position: absolute;
+			border-radius: 50%;
+		}
+		.clier13 {
+			width: 80px; 
+			height: 80px; 
+			left: 810px;
+			top: 1100px;
+			background-color: rgb(68, 11, 225);
+			position: absolute;
+			border-radius: 50%;
+		}
+		.clier14{
+			width: 80px; 
+			height: 80px; 
+			left: 910px;
+			top: 1100px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(228, 15, 15);
+		}
+		.clier15{
+			width: 80px; 
+			height: 80px; 
+			left: 1010px;
+			top: 1100px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(15, 19, 228);
+		}
+		.clier16{
+			width: 80px; 
+			height: 80px; 
+			left: 1010px;
+			top: 1300px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(235, 6, 6);
+		}
+		.clier17{
+			width: 80px; 
+			height: 80px; 
+			left: 810px;
+			top: 1200px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(6, 10, 235);
+		}
+		.clier18{
+			width: 80px; 
+			height: 80px; 
+			left: 910px;
+			top: 1200px;
+			border-radius: 50%;
+			position: absolute;
+			background-color: rgb(6, 40, 235);
+		}
+

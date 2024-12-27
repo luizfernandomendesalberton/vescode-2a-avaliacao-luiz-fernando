@@ -1,0 +1,28 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.caixa{
+    display: grid ;
+grid-template-areas: "header header" "main aside" "footer footer";
+grid-template-columns: 3fr 1fr;
+grid-template-rows: 30vh 60vh 10vh;
+
+
+}
+header{
+    grid-area: header;
+    background-color: rgb(9, 102, 102);
+}
+main{
+    grid-area: main;
+    background-color: bisque;
+}
+aside{
+    grid-area: aside;
+    background-color: brown;
+}
+footer{
+    grid-area: footer;
+    background-color: chocolate;
+}

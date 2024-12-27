@@ -1,0 +1,46 @@
+header {
+    text-align: center; 
+    padding: 20px;
+ }
+ 
+ nav {
+    text-align: center;
+    word-spacing: 60px;
+    Padding: 30px;
+    background-color: #f5f5dc;
+    
+ }
+ nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: larger;
+ }
+ 
+ *{
+    box-sizing: border-box;
+ }
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .post-text-box {
+    flex: 70%;
+    padding: 20px;
+ }
+ .profile {
+    flex: 70%;
+    padding: 20px;
+
+ }
+ 
+ .profile img {
+    width: 200px;
+    display: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    top: 500px;
+    position: absolute;
+ }
+ .profile h1 {
+    text-align: center;
+ }

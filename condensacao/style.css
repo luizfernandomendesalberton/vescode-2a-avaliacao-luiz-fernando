@@ -1,0 +1,47 @@
+/* Estilos básicos para o layout */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        "menu";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 10px;
+    height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    background: #ce0505;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    grid-area: nav;
+    background: #7e0707;
+    padding: 20px;
+}
+
+main {
+    grid-area: main;
+    background: #a70b0b;
+    padding: 20px;
+}
+
+aside {
+    grid-area: aside;
+    background: #ce0909;
+    padding: 20px;
+}
+
+footer {
+    grid-area: footer;
+    background: #c90404;
+    padding: 20px;
+    text-align: center;
+}

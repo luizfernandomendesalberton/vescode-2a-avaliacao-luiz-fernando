@@ -1,0 +1,103 @@
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #f4f4f9;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Seções */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+}
+
+main section {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.post {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  position:relative;
+  background: #333;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* Tema Escuro */
+body.dark {
+  background-color: #333;
+  color: #f4f4f9;
+}
+
+body.dark .post {
+  background-color: #444;
+}
+
+body.dark header {
+  background-color: #444;
+}
+

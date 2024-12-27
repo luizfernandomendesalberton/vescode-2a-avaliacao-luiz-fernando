@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarroApp - Revenda de Carros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Aplicativo de Revenda Multimarcas</h1>
+    <p>Encontre seu carro ideal aqui!</p>
+  </header>
+  
+   <div class="coluna" id="coluna">
+    
+   </div>
+  <section class="filter">
+    <label for="search">Buscar:</label>
+    <input type="text" id="search" placeholder="Digite o modelo ou marca">
+  </section>
+
+  <section id="car-list" class="car-list">
+    <!-- Os carros serão listados aqui pelo JavaScript -->
+  </section>
+
+  <div id="car-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="car-details"></div>
+      <form id="contact-form">
+        <h2>Interesse no Carro</h2>
+        <input type="text" name="name" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <textarea name="message" placeholder="Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

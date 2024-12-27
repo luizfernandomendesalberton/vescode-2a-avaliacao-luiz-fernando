@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+
+.quadrado1 {
+    width: 100px;
+    height: 100px;
+    border: 2px dashed black;
+
+  
+}
+.quadrado2 {
+    width: 100px;
+    height: 100px;
+    border: 2px dashed black;
+
+  
+}
+.mover {
+    position: relative;
+}
+
+button {
+    margin-top: 20px;
+}
+@keyframes moverParaFrente {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(110px); /* Move para a frente */
+    }
+}
+.mover.ativo {
+    animation: moverParaFrente 1s forwards;
+}
